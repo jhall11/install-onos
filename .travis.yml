@@ -4,12 +4,15 @@ matrix:
     - os: linux
       sudo: required
       dist: trusty
+      env: NAME="Trusty"
     - os: linux
       sudo: required
       dist: xenial
+      env: NAME="Xenial"
     - os: linux
       sudo: required
       dist: precise
+      env: NAME="Precise"
 
 before_install:
 - sudo apt-get -qq update
