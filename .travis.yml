@@ -1,6 +1,9 @@
 language: java
 sudo: required
-dist: xenial
+matrix:
+  dist: 
+    - trusty
+    - xenial
 
 before_install:
 - sudo apt-get -qq update
