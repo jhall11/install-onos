@@ -2,14 +2,14 @@ language: java
 matrix:
   include:
     - os: linux
-    sudo: required
-    dist: trusty
+      sudo: required
+      dist: trusty
     - os: linux
-    sudo: required
-    dist: xenial
+      sudo: required
+      dist: xenial
     - os: linux
-    sudo: required
-    dist: precise
+      sudo: required
+      dist: precise
 
 before_install:
 - sudo apt-get -qq update
