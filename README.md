@@ -13,7 +13,7 @@ This set of scripts [tests][5] the [procedure to install ONOS][2] from an
 [2]: install-onos.sh
 [3]: test-onos.sh
 [4]: .travis.yml
-[5]: https://travis-ci.org/lantz/install-onos
-[6]: https://travis-ci.org/lantz/install-onos.svg?branch=master
+[5]: https://travis-ci.org/jhall11/install-onos
+[6]: https://travis-ci.org/jhall11/install-onos.svg?branch=master
 [7]: http://mininet.org
 [8]: https://wiki.onosproject.org/x/jQAQ
